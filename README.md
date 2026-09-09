@@ -6,6 +6,8 @@ It is built around one product promise:
 
 > Turn every failed agent run into a replayable test.
 
+> **Deployed in [Witness](https://github.com/anzal1/witness)** — a single-binary proxy that records every model call of an agent fleet in a hash-chained journal (this trace protocol's ideas, applied at the model-API boundary), with Pact-signed agent identity, cache/replay, and Merkle-committed audits.
+
 Agent observability tells you what happened. AgentReplay freezes the run as `agentreplay.trace.v1` JSON so you can replay, diff, and gate future model, prompt, tool, or workflow changes against the same production failure.
 
 ## Why this exists
