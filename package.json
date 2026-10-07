@@ -53,6 +53,14 @@
     "harness"
   ],
   "license": "Apache-2.0",
+  "homepage": "https://halleylabs.dev/agentreplay-site/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/halleylabs/agentreplay.git"
+  },
+  "bugs": {
+    "url": "https://github.com/halleylabs/agentreplay/issues"
+  },
   "engines": {
     "node": ">=20"
   }
